@@ -36,6 +36,9 @@ button {
   box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
   padding: 15px;
 }
+.about__info{
+  width: 550px;
+}
 .about__image {
   width: 600px;
 }
