@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no" />
     <title>Солнечные батареи GreenCorp</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100; 300; 400; 500; 600; 700; 800 &display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@ 100; 300; 400; 500; 600; 700; 800 &display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
+    
     <header>
         <!-- шапка сайта-->
         <img class="header__logo" src="img/logo.svg">
@@ -22,7 +23,8 @@
         </div>
     </header>
     <section class="about">
-        <!--первая часть сайта -->
+              <!--первая часть сайта -->
+        <canvas class="orb-canvas" id="orb-canvas"></canvas>
         <div class="about__info animate__animated animate__fadeInLeft animate__slow">
             <h1>Солнечные панели GreenRobotic</h1>
             <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
@@ -32,7 +34,7 @@
             <img class="about__sun-image" src="img/sun.png">
             <img class="about__image" src="img/solar-panel.png">
         </div>
-    </section>
+           </section>
     <section class="features" id="features">
         <div class="cards">
             <div class="card">
@@ -179,6 +181,7 @@
             GreenCorp@2022
         </div>
     </footer>
+  <script src="js/canvas.js"></script>
 </body>
 
 </html>
